@@ -105,7 +105,7 @@ function Canvas({ adInfo }) {
     const backgroundColor = '#000000';
     const textToWrite = text || "Shop Now";
 
-    // Break the text into lines (max 20 characters per line)
+    // Break the text into lines (max 15 characters per line)
     const lines = breakTextIntoLines(textToWrite, 20,15);
 
     ctx.font = '30px Sans-serif';

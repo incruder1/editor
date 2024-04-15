@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux"
 import { adText } from "../../app/adSlice.js"
 
 
-function AdContent() {
+function Content() {
 
     const [text,setText] = useState()
     const dispatch = useDispatch()
@@ -25,5 +25,5 @@ function AdContent() {
   )
 }
 
-export default AdContent
+export default Content
 

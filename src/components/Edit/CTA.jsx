@@ -2,7 +2,7 @@ import { useEffect,useState } from "react"
 import {useDispatch} from 'react-redux'
 import {adCTA} from '../../app/adSlice.js'
 
-function AdCTA() {
+function CTA() {
 
     const [cta,setCta] = useState("");
     const dispatch = useDispatch();
@@ -26,4 +26,4 @@ function AdCTA() {
   )
 }
 
-export default AdCTA
+export default CTA

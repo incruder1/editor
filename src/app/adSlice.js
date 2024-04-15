@@ -1,12 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-
-// const initialState = {
-//     adBgColor:"#0369A1",
-//     adCTA: "Shop Now",
-//     adText: "1 & 2 BHK Luxury Apartments at just Rs.34.97 Lakhs",
-//     adImage: "https://apartmentshoustonenergycorridor.com/wp-content/uploads/2018/06/Two-Bedroom-Apartment-in-Houston-TX-5.png",
-// };
-
 const initialState = {
   caption: {
     text: "1 & 2 BHK Luxury Apartments at just Rs.34.97Lakhs",
@@ -53,25 +45,11 @@ export const adSlice = createSlice({
     adCTA: (state,action) => {
         state.cta.text = action.payload;
     },
-    // caption: (state, action) => {
-    //   state.caption = action.payload;
-    // },
-    // cta: (state, action) => {
-    //   state.cta = action.payload;
-    // },
-    // image_mask: (state, action) => {
-    //   state.image_mask = action.payload;
-    // },
-    // urls: (state, action) => {
-    //   state.urls = action.payload;
-    // },
-    // adImage: (state, action) => {
-    //   state.adImage = action.payload;
-    // },
+    
   },
 });
 
 export const { adBgColor, adImage, adText, adCTA,caption, cta, image_mask, urls } = adSlice.actions;
-// export const { caption, cta, image_mask, urls,adImage } = adSlice.actions;
+
 
 export default adSlice.reducer;

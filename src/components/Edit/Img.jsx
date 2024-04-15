@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUpload } from '@fortawesome/free-solid-svg-icons'
 
 
-function AdImg() {
+function Img() {
 
     const [adimage,setAdImage] = useState()
     const [imgname,setImgName] = useState()
@@ -33,4 +33,4 @@ function AdImg() {
   )
 }
 
-export default AdImg
+export default Img

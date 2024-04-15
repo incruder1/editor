@@ -75,4 +75,4 @@ function BgColor() {
   )
 }
 
-export default BgColor
+export default BgColor;
